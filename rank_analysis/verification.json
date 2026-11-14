@@ -1,0 +1,15 @@
+{
+  "status": "independently_verified",
+  "validation_grid_points_checked": 242,
+  "prediction_rows_checked": 49536,
+  "diagnostic_rows_checked": 24768,
+  "aggregate_result_rows_checked": 66,
+  "aggregate_diagnostic_rows_checked": 132,
+  "original_protected_files_unchanged": 66,
+  "locked_inputs_unchanged": true,
+  "protected_local_snapshot_available": true,
+  "independent_rank_implementation": "scipy.stats.rankdata with average ties; integer fusion costs",
+  "selection_lock_sha256": "3344e633edcda05d87c58e7865c6d859847bb2c6ab2bc97f93ab8ed63c836585",
+  "result_lock_sha256": "252098fb6d146f1c8f84797a4c9ffe69b788da86d44a67c5d87cfab68ced278c",
+  "verifier_sha256": "49712a35e03747c1c37b269702a02d5c32f6d1d3af0e157162d3171ebc4455bd"
+}

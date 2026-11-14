@@ -1,0 +1,54 @@
+{
+  "pca_then_regularized_lda": {
+    "coat_delta_mean_pp": -2.9023088189947583,
+    "coat_delta_range_pp": [
+      -12.765957446808512,
+      0.0
+    ],
+    "positive_negative_zero_splits": [
+      0,
+      5,
+      5
+    ],
+    "lower_only_better_than_selected_splits": 10,
+    "selected_minus_lower_mean_pp": -17.22899000411142,
+    "weights": [
+      1.0,
+      0.9,
+      0.7,
+      0.5,
+      0.5,
+      0.8,
+      0.6,
+      0.5,
+      0.5,
+      0.6
+    ]
+  },
+  "pca": {
+    "coat_delta_mean_pp": -2.74993254702436,
+    "coat_delta_range_pp": [
+      -10.869565217391305,
+      5.729166666666671
+    ],
+    "positive_negative_zero_splits": [
+      3,
+      4,
+      3
+    ],
+    "lower_only_better_than_selected_splits": 10,
+    "selected_minus_lower_mean_pp": -15.604086365505193,
+    "weights": [
+      1.0,
+      0.5,
+      0.3,
+      0.9,
+      0.9,
+      0.3,
+      0.2,
+      0.5,
+      0.5,
+      1.0
+    ]
+  }
+}

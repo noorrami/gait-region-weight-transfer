@@ -1,6 +1,6 @@
 # Transfer of Gait Region Weights from Bag Carrying to Coat Wearing
 
-Author: Noor Saad. Source release: v1.1.0. Public implementation, tests, study specifications and aggregate findings.
+Author: Noor Saad. Source release: v1.2.0. Public implementation, tests, study specifications and aggregate findings.
 
 The classical study tests bag-selected upper/lower GEI score fusion on coat identification with disjoint fitting, validation and test people. The original test is separate from ten overlapping post-test exploratory splits. The cancelled full-body GaitSet branch is excluded.
 
@@ -10,7 +10,7 @@ The classical study tests bag-selected upper/lower GEI score fusion on coat iden
     python -m pytest -q
     python verify_aggregate_results.py
 
-The current suite contains 55 synthetic tests. They validate mathematical/protocol safeguards, not gait recognition accuracy.
+The current suite contains 61 synthetic tests. They validate mathematical/protocol safeguards, not gait recognition accuracy.
 
 ## Complete reproduction from the authorized archive
 
@@ -30,4 +30,8 @@ Original LDA CL BG-selected minus equal fusion was -3.19 percentage points. Its 
 
 The input is the pinned processed CASIA-B mirror, not verified bit-identical original-provider silhouettes. Dataset access/reuse conditions remain separate. No images, GEIs, fitted models or identity-level predictions are distributed. Keep generated reproduction workspaces private.
 
-No additional code reuse license has been assigned; see LICENSE_STATUS.md. No Zenodo DOI is asserted. Cite the version in CITATION.cff. Software and methodological references are in SOFTWARE.md.
+No additional code reuse license has been assigned; see LICENSE_STATUS.md. Version DOI: https://doi.org/10.5281/zenodo.24229763 . The original v1.1.0 archive remains at https://doi.org/10.5281/zenodo.24225532 . Cite the version in CITATION.cff. Software and methodological references are in SOFTWARE.md.
+
+## Ordinal sensitivity supplement
+
+See ORDINAL_ANALYSIS.md and rank_analysis/ for the new post-hoc analysis, all eleven split outcomes and the commands to regenerate them after the raw route. ORCID: https://orcid.org/0009-0008-5726-0942 . The original scientific source is unchanged; ordinal code is a separate addition.

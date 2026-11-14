@@ -1,0 +1,7 @@
+{
+  "status": "all_rank_outputs_matched_from_previously_cold_rebuilt_scores",
+  "same_host_new_environment": true,
+  "new_projection_refits_for_this_check": false,
+  "source_of_recomputed_inputs": "prior complete cold-archive reproduction raw_v1",
+  "new_independent_population": false
+}

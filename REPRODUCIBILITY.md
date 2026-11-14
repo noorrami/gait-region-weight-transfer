@@ -7,3 +7,5 @@ RAW_REPRODUCTION_REPORT.json records the tested fresh virtual environment, aggre
 Source images and derived biometric artifacts are excluded from GitHub. Generated outputs include such artifacts and must remain under authorized access. The ZIP inventory is rebuilt and every study-used clip is decoded/CRC-checked; unused frames are not all decoded again because the full archive hash matches the previously audited release.
 
 The route reproduces numerical findings and verification artifacts. Manuscript layout and graphical rendering are separate authoring steps. Numeric tolerance is 1e-10; mismatches fail rather than silently changing settings. requirements-reproduction.txt pins the successfully installed packages; tested Python is 3.14.5 on Windows 10. Other platforms require their own validation.
+
+The added ordinal analysis has a separate replay route in ORDINAL_ANALYSIS.md. RAW_REPRODUCTION_REPORT.json describes the earlier original cold-archive run; rank_analysis/reproduction_check.json describes the added analysis on those cold-rebuilt scores.

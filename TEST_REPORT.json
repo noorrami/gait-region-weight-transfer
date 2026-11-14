@@ -1,9 +1,8 @@
 {
-  "synthetic_tests": "55 passed",
-  "test_output": ".......................................................                  [100%]\n55 passed in 4.66s\n",
-  "fresh_virtual_environment": true,
-  "fresh_dependency_installation": true,
-  "same_original_host": true,
-  "full_raw_data_reproduction": true,
-  "report": "RAW_REPRODUCTION_REPORT.json"
+  "synthetic_tests": "61 passed",
+  "output": ".............................................................            [100%]\n61 passed in 3.35s\n",
+  "same_isolated_environment": true,
+  "original_cold_report": "RAW_REPRODUCTION_REPORT.json",
+  "added_analysis_report": "rank_analysis/reproduction_check.json",
+  "no_new_cold_projection_fit_for_supplement": true
 }
