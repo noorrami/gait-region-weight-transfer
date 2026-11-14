@@ -1,6 +1,6 @@
 # Transfer of Gait Region Weights from Bag Carrying to Coat Wearing
 
-Author: Noor Saad. Source release: v1.0.0. Repository visibility: private, as explicitly requested by the author.
+Author: Noor Saad. Source release: v1.0.1. Repository visibility: public, as explicitly requested by the author.
 
 This repository contains the classical GEI/PCA/regularized-LDA implementation, synthetic tests, frozen study specifications and aggregate results for a person-disjoint bag-to-coat weight-transfer study. The original test is distinguished from ten overlapping post-test exploratory splits. The cancelled full-body GaitSet branch is excluded.
 
@@ -24,4 +24,4 @@ No source images, frame arrays, GEIs, fitted models or identity-level prediction
 
 ## Licensing and citation
 
-No additional code reuse license has been selected for this private release. See LICENSE_STATUS.md. Dataset and dependency licenses remain separate. CITATION.cff identifies the software; no Zenodo DOI or published-paper DOI is asserted. The repository is not a public code-availability claim.
+No additional code reuse license has been selected for this release. See LICENSE_STATUS.md. Dataset and dependency licenses remain separate. CITATION.cff identifies the software; no Zenodo DOI or published-paper DOI is asserted. The implementation and aggregate summaries can be viewed without a GitHub account.

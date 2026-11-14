@@ -1,12 +1,12 @@
 {
-  "version": "v1.0.0",
+  "version": "v1.0.1",
   "scope": "code_tests_protocol_aggregate_results_only",
   "artifacts": {
     ".gitattributes": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da",
     ".gitignore": "02eed7c48a895d0ef62f8ecbe4038d3cdfb2d34dd6416009814fd83b4f7b5f9c",
-    "CITATION.cff": "42025b27e1dde86f75f004f628922e9ae5ddf5237e33f414c1f1bf9b24b4b91e",
-    "LICENSE_STATUS.md": "e2e58d38e7eb21777e0f4d1e9e8e2b51b9e382348743fc832ac8f453da968a0e",
-    "README.md": "101fe35fc3240004adad02e43cdf2a5b190f2da9e8838440ee7291c32b708260",
+    "CITATION.cff": "e27fd102cf00ca39c4f8a80269f0dc69b3d299cdc16985c49634088d2d3bb583",
+    "LICENSE_STATUS.md": "c888ed29d38c1ef1f7965a4fb5d06a6c487fd91660bf7bd062f8c18274c19c26",
+    "README.md": "0cf333594fbb190e944fa214958d82791fd9b30bafb62030e060da68ca095bb2",
     "REPRODUCIBILITY.md": "99f9a61d84d88c84532e4b8cf41ba5cf7196edcb39802ef2bb6d6ce160f8ebb2",
     "SOFTWARE.md": "4390b0ee0f8020ceb497edcc193a23bf5bf5dfada5f75fb3998e13bc977b644e",
     "TEST_REPORT.json": "0dc785f076863e177bf85cd92984db74ac570a6e0ae405272cb2bb503d709a9a",
