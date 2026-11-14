@@ -1,27 +1,33 @@
 # Transfer of Gait Region Weights from Bag Carrying to Coat Wearing
 
-Author: Noor Saad. Source release: v1.0.1. Repository visibility: public, as explicitly requested by the author.
+Author: Noor Saad. Source release: v1.1.0. Public implementation, tests, study specifications and aggregate findings.
 
-This repository contains the classical GEI/PCA/regularized-LDA implementation, synthetic tests, frozen study specifications and aggregate results for a person-disjoint bag-to-coat weight-transfer study. The original test is distinguished from ten overlapping post-test exploratory splits. The cancelled full-body GaitSet branch is excluded.
+The classical study tests bag-selected upper/lower GEI score fusion on coat identification with disjoint fitting, validation and test people. The original test is separate from ten overlapping post-test exploratory splits. The cancelled full-body GaitSet branch is excluded.
 
-## Data-free verification
-
-Using the environment recorded in requirements.txt:
+## Data-free checks
 
     python verify_release.py
     python -m pytest -q
     python verify_aggregate_results.py
 
-The reviewed snapshot passed 51 synthetic tests in a separate source directory using the recorded installed dependencies. These tests check mathematical/protocol behavior; the aggregate script checks summary arithmetic, not individual recognition predictions.
+The current suite contains 55 synthetic tests. They validate mathematical/protocol safeguards, not gait recognition accuracy.
 
-## Results and scope
+## Complete reproduction from the authorized archive
 
-The original LDA coat contrast (BG-selected minus equal fusion) was -3.19 percentage points. Its prespecified percentile interval excluded zero, while the post-test person-block sign-flip sensitivity gave p=0.109375. In ten overlapping exploratory splits, LDA coat contrasts were negative in five and identical in five. Lower-only exceeded BG-selected fusion on coats in all ten for both backbones. These splits are not independent confirmation or a new dataset.
+Create a new Python 3.14 environment and install requirements-reproduction.txt. Supply the exact archive yourself, then run:
 
-## Reproduction boundaries
+    python scripts/reproduce_from_archive.py --archive /path/to/casia-b-v1.zip --output /new/path/run-01
 
-No source images, frame arrays, GEIs, fitted models or identity-level predictions are distributed. Dataset-dependent scripts retain the original path, role and hash checks and require the author's private authorized artifacts. This source release is not a one-command reproduction from raw data. See REPRODUCIBILITY.md and SOFTWARE.md. Access to a mirror does not establish original-provider bit identity or redistribution permission.
+The output directory must not exist. The route rebuilds the sequence inventory, roles, all required GEIs, models, selection locks, original test, person-block sensitivity and all ten split fits/tests. It does not need the author's private manifests, images already extracted, trained models or previous scores. It retains integrity checks with newly generated reproduction hash chains. See RAW_REPRODUCTION.md.
 
-## Licensing and citation
+The complete route was tested in a newly created virtual environment with freshly installed pinned dependencies on the recorded Windows host. Regenerated GEIs, score arrays and prediction rows matched retained originals; aggregate references also matched. See RAW_REPRODUCTION_REPORT.json. This is retrospective computational reproduction, not independent confirmation on new people or acquisition systems. Other OS/BLAS combinations were not automatically validated.
 
-No additional code reuse license has been selected for this release. See LICENSE_STATUS.md. Dataset and dependency licenses remain separate. CITATION.cff identifies the software; no Zenodo DOI or published-paper DOI is asserted. The implementation and aggregate summaries can be viewed without a GitHub account.
+## Scientific findings
+
+Original LDA CL BG-selected minus equal fusion was -3.19 percentage points. Its percentile interval excluded zero; the post-test person-block sign-flip sensitivity gave p=0.109375. Ten exploratory splits gave five negative and five identical LDA coat contrasts. Lower-only exceeded BG-selected on coats in all ten for both backbones. Overlapping splits are not independent replications.
+
+## Data and licensing
+
+The input is the pinned processed CASIA-B mirror, not verified bit-identical original-provider silhouettes. Dataset access/reuse conditions remain separate. No images, GEIs, fitted models or identity-level predictions are distributed. Keep generated reproduction workspaces private.
+
+No additional code reuse license has been assigned; see LICENSE_STATUS.md. No Zenodo DOI is asserted. Cite the version in CITATION.cff. Software and methodological references are in SOFTWARE.md.

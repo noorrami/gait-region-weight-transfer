@@ -2,7 +2,7 @@ cff-version: 1.2.0
 message: "Please cite this versioned source release when referring to its implementation."
 title: "Transfer of Gait Region Weights from Bag Carrying to Coat Wearing"
 type: software
-version: "1.0.1"
+version: "1.1.0"
 date-released: "2026-11-14"
 repository-code: "https://github.com/noorrami/gait-region-weight-transfer"
 authors:

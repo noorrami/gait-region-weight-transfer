@@ -1,0 +1,422 @@
+{
+  "pca": {
+    "selected_parameters": {
+      "full": {
+        "budget": 30,
+        "precursor": null,
+        "ridge": null,
+        "status": "ok",
+        "per_view_rank1": [
+          0.45652173913043476,
+          0.5869565217391305
+        ],
+        "mean_rank1": 0.5217391304347826
+      },
+      "regional": {
+        "budget": 30,
+        "precursor": null,
+        "ridge": null,
+        "status": "ok",
+        "per_view_rank1": [
+          0.45652173913043476,
+          0.45652173913043476
+        ],
+        "mean_rank1": 0.45652173913043476
+      }
+    },
+    "upper_weight_bg": 0.6,
+    "upper_weight_nm_control": 0.4,
+    "bg_weight_grid": [
+      {
+        "weight": 0.0,
+        "mean_rank1": 0.3695652173913043
+      },
+      {
+        "weight": 0.1,
+        "mean_rank1": 0.42391304347826086
+      },
+      {
+        "weight": 0.2,
+        "mean_rank1": 0.4347826086956522
+      },
+      {
+        "weight": 0.3,
+        "mean_rank1": 0.4347826086956522
+      },
+      {
+        "weight": 0.4,
+        "mean_rank1": 0.44565217391304346
+      },
+      {
+        "weight": 0.5,
+        "mean_rank1": 0.45652173913043476
+      },
+      {
+        "weight": 0.6,
+        "mean_rank1": 0.5108695652173914
+      },
+      {
+        "weight": 0.7,
+        "mean_rank1": 0.4782608695652174
+      },
+      {
+        "weight": 0.8,
+        "mean_rank1": 0.48913043478260865
+      },
+      {
+        "weight": 0.9,
+        "mean_rank1": 0.43478260869565216
+      },
+      {
+        "weight": 1.0,
+        "mean_rank1": 0.42391304347826086
+      }
+    ],
+    "nm_weight_grid": [
+      {
+        "weight": 0.0,
+        "mean_rank1": 0.9456521739130435
+      },
+      {
+        "weight": 0.1,
+        "mean_rank1": 0.9565217391304348
+      },
+      {
+        "weight": 0.2,
+        "mean_rank1": 0.9673913043478262
+      },
+      {
+        "weight": 0.3,
+        "mean_rank1": 0.9782608695652174
+      },
+      {
+        "weight": 0.4,
+        "mean_rank1": 0.9782608695652174
+      },
+      {
+        "weight": 0.5,
+        "mean_rank1": 0.9673913043478262
+      },
+      {
+        "weight": 0.6,
+        "mean_rank1": 0.9782608695652174
+      },
+      {
+        "weight": 0.7,
+        "mean_rank1": 0.9673913043478262
+      },
+      {
+        "weight": 0.8,
+        "mean_rank1": 0.9565217391304348
+      },
+      {
+        "weight": 0.9,
+        "mean_rank1": 0.9456521739130435
+      },
+      {
+        "weight": 1.0,
+        "mean_rank1": 0.9239130434782609
+      }
+    ],
+    "validation_only_comparisons": {
+      "bg": {
+        "equal": {
+          "per_view_rank1": [
+            0.45652173913043476,
+            0.45652173913043476
+          ],
+          "mean_rank1": 0.45652173913043476
+        },
+        "bag_selected": {
+          "per_view_rank1": [
+            0.5,
+            0.5217391304347826
+          ],
+          "mean_rank1": 0.5108695652173914
+        },
+        "normal_selected": {
+          "per_view_rank1": [
+            0.45652173913043476,
+            0.43478260869565216
+          ],
+          "mean_rank1": 0.44565217391304346
+        },
+        "upper_only": {
+          "per_view_rank1": [
+            0.32608695652173914,
+            0.5217391304347826
+          ],
+          "mean_rank1": 0.42391304347826086
+        },
+        "lower_only": {
+          "per_view_rank1": [
+            0.41304347826086957,
+            0.32608695652173914
+          ],
+          "mean_rank1": 0.3695652173913043
+        },
+        "full": {
+          "per_view_rank1": [
+            0.45652173913043476,
+            0.5869565217391305
+          ],
+          "mean_rank1": 0.5217391304347826
+        }
+      },
+      "nm": {
+        "equal": {
+          "per_view_rank1": [
+            1.0,
+            0.9347826086956522
+          ],
+          "mean_rank1": 0.9673913043478262
+        },
+        "bag_selected": {
+          "per_view_rank1": [
+            1.0,
+            0.9565217391304348
+          ],
+          "mean_rank1": 0.9782608695652174
+        },
+        "normal_selected": {
+          "per_view_rank1": [
+            1.0,
+            0.9565217391304348
+          ],
+          "mean_rank1": 0.9782608695652174
+        },
+        "upper_only": {
+          "per_view_rank1": [
+            0.9565217391304348,
+            0.8913043478260869
+          ],
+          "mean_rank1": 0.9239130434782609
+        },
+        "lower_only": {
+          "per_view_rank1": [
+            0.9347826086956522,
+            0.9565217391304348
+          ],
+          "mean_rank1": 0.9456521739130435
+        },
+        "full": {
+          "per_view_rank1": [
+            0.9565217391304348,
+            0.9565217391304348
+          ],
+          "mean_rank1": 0.9565217391304348
+        }
+      }
+    }
+  },
+  "pca_then_regularized_lda": {
+    "selected_parameters": {
+      "full": {
+        "budget": 30,
+        "precursor": 80,
+        "ridge": 0.01,
+        "status": "ok",
+        "per_view_rank1": [
+          0.6304347826086957,
+          0.6304347826086957
+        ],
+        "mean_rank1": 0.6304347826086957
+      },
+      "regional": {
+        "budget": 30,
+        "precursor": 80,
+        "ridge": 0.1,
+        "status": "ok",
+        "per_view_rank1": [
+          0.6956521739130435,
+          0.391304347826087
+        ],
+        "mean_rank1": 0.5434782608695652
+      }
+    },
+    "upper_weight_bg": 0.8,
+    "upper_weight_nm_control": 0.5,
+    "bg_weight_grid": [
+      {
+        "weight": 0.0,
+        "mean_rank1": 0.3804347826086957
+      },
+      {
+        "weight": 0.1,
+        "mean_rank1": 0.4456521739130435
+      },
+      {
+        "weight": 0.2,
+        "mean_rank1": 0.4891304347826087
+      },
+      {
+        "weight": 0.3,
+        "mean_rank1": 0.5108695652173914
+      },
+      {
+        "weight": 0.4,
+        "mean_rank1": 0.532608695652174
+      },
+      {
+        "weight": 0.5,
+        "mean_rank1": 0.5434782608695652
+      },
+      {
+        "weight": 0.6,
+        "mean_rank1": 0.5434782608695652
+      },
+      {
+        "weight": 0.7,
+        "mean_rank1": 0.5652173913043478
+      },
+      {
+        "weight": 0.8,
+        "mean_rank1": 0.6304347826086956
+      },
+      {
+        "weight": 0.9,
+        "mean_rank1": 0.6304347826086956
+      },
+      {
+        "weight": 1.0,
+        "mean_rank1": 0.6195652173913043
+      }
+    ],
+    "nm_weight_grid": [
+      {
+        "weight": 0.0,
+        "mean_rank1": 0.9891304347826086
+      },
+      {
+        "weight": 0.1,
+        "mean_rank1": 0.9891304347826086
+      },
+      {
+        "weight": 0.2,
+        "mean_rank1": 0.9891304347826086
+      },
+      {
+        "weight": 0.3,
+        "mean_rank1": 0.9891304347826086
+      },
+      {
+        "weight": 0.4,
+        "mean_rank1": 1.0
+      },
+      {
+        "weight": 0.5,
+        "mean_rank1": 1.0
+      },
+      {
+        "weight": 0.6,
+        "mean_rank1": 1.0
+      },
+      {
+        "weight": 0.7,
+        "mean_rank1": 1.0
+      },
+      {
+        "weight": 0.8,
+        "mean_rank1": 1.0
+      },
+      {
+        "weight": 0.9,
+        "mean_rank1": 0.9782608695652174
+      },
+      {
+        "weight": 1.0,
+        "mean_rank1": 0.9673913043478262
+      }
+    ],
+    "validation_only_comparisons": {
+      "bg": {
+        "equal": {
+          "per_view_rank1": [
+            0.6956521739130435,
+            0.391304347826087
+          ],
+          "mean_rank1": 0.5434782608695652
+        },
+        "bag_selected": {
+          "per_view_rank1": [
+            0.7391304347826086,
+            0.5217391304347826
+          ],
+          "mean_rank1": 0.6304347826086956
+        },
+        "normal_selected": {
+          "per_view_rank1": [
+            0.6956521739130435,
+            0.391304347826087
+          ],
+          "mean_rank1": 0.5434782608695652
+        },
+        "upper_only": {
+          "per_view_rank1": [
+            0.6739130434782609,
+            0.5652173913043478
+          ],
+          "mean_rank1": 0.6195652173913043
+        },
+        "lower_only": {
+          "per_view_rank1": [
+            0.45652173913043476,
+            0.30434782608695654
+          ],
+          "mean_rank1": 0.3804347826086957
+        },
+        "full": {
+          "per_view_rank1": [
+            0.6304347826086957,
+            0.6304347826086957
+          ],
+          "mean_rank1": 0.6304347826086957
+        }
+      },
+      "nm": {
+        "equal": {
+          "per_view_rank1": [
+            1.0,
+            1.0
+          ],
+          "mean_rank1": 1.0
+        },
+        "bag_selected": {
+          "per_view_rank1": [
+            1.0,
+            1.0
+          ],
+          "mean_rank1": 1.0
+        },
+        "normal_selected": {
+          "per_view_rank1": [
+            1.0,
+            1.0
+          ],
+          "mean_rank1": 1.0
+        },
+        "upper_only": {
+          "per_view_rank1": [
+            0.9782608695652174,
+            0.9565217391304348
+          ],
+          "mean_rank1": 0.9673913043478262
+        },
+        "lower_only": {
+          "per_view_rank1": [
+            1.0,
+            0.9782608695652174
+          ],
+          "mean_rank1": 0.9891304347826086
+        },
+        "full": {
+          "per_view_rank1": [
+            1.0,
+            1.0
+          ],
+          "mean_rank1": 1.0
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "status": "retrospective_reproduction_plan_before_first_reproduction_fit",
+  "date": "2026-11-14",
+  "original_outcomes_already_known": true,
+  "purpose": "Rebuild original and ten-split findings from the pinned raw archive in a fresh output tree",
+  "archive_sha256": "58799af6895f8f5a849a2c04a472ba428839450c2a37135f2eafdb2490eb3dd3",
+  "source": "Reviewed classical code snapshot; no GaitSet or new descriptor experiments",
+  "input_policy": "Only source/configuration/reference aggregates and the pinned archive; no old GEIs, projections or scores as computational inputs",
+  "integrity_policy": "Fresh ZIP inventory, fixed archive SHA256 and decode/CRC checks on all clips used by the study; no claim of repeated full pixel audit of unused frames",
+  "isolation": "New workspace and reproduction-specific hash chains; originals immutable",
+  "comparisons": ["participant roles", "development selection", "all original rank1 and paired contrasts", "post-test sensitivity", "all ten exploratory split summaries and stability frequencies"],
+  "numeric_tolerance": 1e-10,
+  "inference": "No new hypothesis test, tuned setting or independent-confirmation claim",
+  "publication": "Code/recipe/aggregate verification only; no biometric artifacts uploaded"
+}

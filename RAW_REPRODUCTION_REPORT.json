@@ -1,0 +1,42 @@
+{
+  "status": "full_raw_reproduction_matched",
+  "original_outcomes_already_known": true,
+  "new_independent_confirmation": false,
+  "old_features_models_scores_used_as_inputs": false,
+  "numeric_fields_matched": 1154,
+  "maximum_numeric_difference": 0.0,
+  "tolerance": 1e-10,
+  "participant_roles_matched": true,
+  "original_test_reproduced": true,
+  "exploratory_splits_reproduced": 10,
+  "sensitivity_p": 0.109375,
+  "source_snapshot_unchanged": true,
+  "wall_seconds": 531.1201486999926,
+  "environment": {
+    "python": "3.14.5 (tags/v3.14.5:5607950, May 10 2026, 10:43:50) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-10-10.0.19045-SP0",
+    "isolated_virtual_environment": true,
+    "packages": {
+      "numpy": "2.5.2",
+      "scipy": "1.18.1",
+      "Pillow": "12.3.0",
+      "pytest": "9.1.1"
+    }
+  },
+  "source_manifest_sha256": "09f3a89ec4cccb4e878a4e7bfb9ab9917be30ce2b091bb2251ed8eb991e4e3bd",
+  "archive_sha256": "58799af6895f8f5a849a2c04a472ba428839450c2a37135f2eafdb2490eb3dd3",
+  "fresh_dependency_installation": true,
+  "same_host_new_virtual_environment": true,
+  "runner_sha256": "2cf1c5038f8ed6e3a0c23af1a2ceb1588e66d00928c4ddc3483bb84d3b4cb8a5",
+  "local_original_comparison": {
+    "status": "originals_unchanged_and_raw_reproduction_artifacts_matched",
+    "original_protected_files_unchanged": 66,
+    "new_gei_files_byte_identical": 2376,
+    "score_arrays_matched": 924,
+    "maximum_score_array_difference": 0.0,
+    "prediction_rows_identical": 74304,
+    "retrospective_not_independent_confirmation": true,
+    "old_artifacts_used_only_after_pipeline_completion": true
+  },
+  "scope": "Computational reproduction of this pinned processed release, not independent population confirmation"
+}
