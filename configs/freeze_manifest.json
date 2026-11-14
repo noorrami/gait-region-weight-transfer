@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "frozen_at_utc": "2026-11-12T11:58:45.353568+00:00",
+  "before_real_data_projection_fitting": true,
+  "before_any_validation_or_test_recognition_outcomes": true,
+  "test_access_authorized_by_this_freeze": false,
+  "artifacts": {
+    "configs/study.frozen.json": "0ec8f3928156b9f0ff2345c443e3fd92c97deb748fc5d627eeeef6ada4bb655f",
+    "docs/frozen/protocol.v1.md": "9fc8bf4d478a03ffe20d66613dd4278ce76660bc62203d88e18a6dd61ef8de80",
+    "docs/frozen/projection_specification.v1.md": "d896671eeda9a14a99103964ef0e4be8328d0c7a4906a3683b0981de1db42efa",
+    "docs/literature_development_decision.md": "85eba071e0a32f27059a523182b68165871b138ee50855f7eb24a33d365a2aa4",
+    "docs/closest_work_matrix.md": "dad6c9f9e62c00d5c57cd17aef3b0fcb1ddfd63f0368aac3877d553451092cd2",
+    "data/manifests/private/subject_partition.json": "83305235a66d5059885a82ad6378cf110ec78434f2200e501ec9c2d2956ef5bd",
+    "data/processed/kaggle_casia_b_v1/development_gei/provenance.json": "bb2a5e31813a9e941cb175cba010551c88dac3b73c33e88ef7bca650fe316d1b",
+    "src/gait_transfer/core.py": "03b6a732cf1b79c36592af2aeeef2544fee9eabecf523fe263772afbdfed7318",
+    "src/gait_transfer/models.py": "31c5eb115ba87a62b68cfd05e2e2c0e1c7a426023a4257b215f4e9d18cadebde",
+    "src/gait_transfer/development.py": "9ce05c6ab33665bb553af870262b94824720f5cdf4b2e50e41fc5a49501bf7e4",
+    "src/gait_transfer/preparation.py": "843757559478044dcea77b45e0f5120284696fe164d35fc3c1f85898987cb647",
+    "scripts/run_development.py": "c3dafac5ad4f25e6843529bfb8710690850575ae902b59e012b6bafeebce789b"
+  }
+}

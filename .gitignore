@@ -1,0 +1,9 @@
+__pycache__/
+.pytest_cache/
+.pytest_tmp/
+data/
+*.npy
+*.npz
+*.pt
+*.pth
+.env

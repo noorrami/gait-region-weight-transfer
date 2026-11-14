@@ -1,0 +1,37 @@
+{
+  "status": "post_test_exploratory_plan_before_new_split_outcomes",
+  "date": "2026-11-13",
+  "original_test_already_seen": true,
+  "original_primary_unchanged": true,
+  "split_seeds": [
+    2026111301,
+    2026111302,
+    2026111303,
+    2026111304,
+    2026111305,
+    2026111306,
+    2026111307,
+    2026111308,
+    2026111309,
+    2026111310
+  ],
+  "assigned_sizes": {
+    "fit": 50,
+    "validation": 24,
+    "test": 50
+  },
+  "eligibility": "Original role-specific NM/BG/CL requirements; >=20 frames at 54 and 90; no refill/reassignment",
+  "preprocessing": "Same immutable mirror, uint8>=128, 64x64 whole-clip mean; same 32-row halves",
+  "selection": "Original grids/ties; fitting NM01-04; normalization fitting NM05-06; validation BG only; NM secondary control",
+  "weight_stability": {
+    "replicates": 1000,
+    "seed_offset": 100,
+    "unit": "validation probe person",
+    "scope": "Conditional on chosen regional models and fixed validation gallery; not retraining bootstrap"
+  },
+  "reporting": "All ten splits, all six controls and views. Median/range/mean and paired split differences; no pooled independence or selected best run",
+  "ci_policy": "No new confirmatory cross-split CI/p-value; overlapping splits are dependent",
+  "deep_policy": "Resource assessment only until training budget and exact setup are established; no pretrained CASIA-B leakage",
+  "baseline_plan_sha256": "0ec8f3928156b9f0ff2345c443e3fd92c97deb748fc5d627eeeef6ada4bb655f",
+  "inventory_sha256": "4b20bceaaa7b2b7d411e76bf1a06c19749d411c8750da870237450571a4b0d2b"
+}

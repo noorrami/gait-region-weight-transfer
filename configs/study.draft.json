@@ -1,0 +1,157 @@
+{
+  "schema_version": 1,
+  "title": "Transfer of Gait Region Weights from Bag Carrying to Coat Wearing",
+  "proposal_number": 3,
+  "source_document": "Biometrics Research Shortlist Master.docx",
+  "user_adoption_date": "2026-11-11",
+  "status": "draft_not_frozen",
+  "dataset": "CASIA-B",
+  "release": "kaggle_trnquanghuyn_casia_b_v1_processed_64x64_provenance_limited",
+  "candidate_mirror": {
+    "ref": "trnquanghuyn/casia-b",
+    "version": 1,
+    "downloaded": true,
+    "pixel_audit_complete": true,
+    "original_release_identity_verified": false,
+    "processing_history_verified": false,
+    "uploader_license_metadata": "Unknown",
+    "adopted_as_study_release": true,
+    "audit_report": "docs/kaggle_audit_result_ar.md",
+    "adoption_scope": "User-authorized local scientific study; no inferred redistribution rights or original bit identity",
+    "user_adoption_date": "2026-11-12"
+  },
+  "gates": {
+    "data_access_verified": true,
+    "data_integrity_verified": true,
+    "literature_gap_reviewed": false,
+    "subject_manifest_verified": true,
+    "protocol_frozen": false
+  },
+  "development_executed": false,
+  "model_selection_frozen": false,
+  "test_evaluated": false,
+  "seed": 20261111,
+  "views_degrees": [
+    54,
+    90
+  ],
+  "evaluation": "same_view_gallery_and_probe_at_each_view",
+  "draft_subject_ids": {
+    "fit": {
+      "first": 1,
+      "last": 50
+    },
+    "validation": {
+      "first": 51,
+      "last": 74
+    },
+    "test": {
+      "first": 75,
+      "last": 124
+    }
+  },
+  "projection_fit_sequences": [
+    "nm-01",
+    "nm-02",
+    "nm-03",
+    "nm-04"
+  ],
+  "normalization_fit_probe_sequences": [
+    "nm-05",
+    "nm-06"
+  ],
+  "gallery_sequences": [
+    "nm-01",
+    "nm-02",
+    "nm-03",
+    "nm-04"
+  ],
+  "development_probe_condition": "bg",
+  "test_probe_conditions": [
+    "bg",
+    "cl",
+    "nm"
+  ],
+  "coat_used_for_selection": false,
+  "gei_shape_draft": [
+    64,
+    64
+  ],
+  "region_boundary_fraction": 0.5,
+  "total_feature_budgets_draft": [
+    10,
+    20,
+    30
+  ],
+  "lda_pca_intermediate_dimensions_draft": [
+    40,
+    80
+  ],
+  "lda_ridge_grid_draft": [
+    0.001,
+    0.01,
+    0.1
+  ],
+  "upper_region_weight_grid": [
+    0.0,
+    0.1,
+    0.2,
+    0.3,
+    0.4,
+    0.5,
+    0.6,
+    0.7,
+    0.8,
+    0.9,
+    1.0
+  ],
+  "weight_shared_between_views": true,
+  "tie_preference": "equal_weight_then_smaller_upper_weight",
+  "primary_backbone": "pca_then_regularized_lda",
+  "primary_endpoint": "coat_rank1_delta_pp_weighted_minus_equal_mean_over_views",
+  "secondary_backbone": "pca",
+  "planned_secondary_weight_control": "validation_nm05_nm06_selected_weight_using_same_regional_models",
+  "bootstrap_draft": {
+    "unit": "probe_person",
+    "paired": true,
+    "replicates": 10000,
+    "gallery_fixed": true
+  },
+  "preparation_policy": {
+    "archive_sha256": "58799af6895f8f5a849a2c04a472ba428839450c2a37135f2eafdb2490eb3dd3",
+    "minimum_frames": 20,
+    "minimum_frames_rationale": "Integrity-only practical exclusion of very short clips, not a gait-cycle guarantee or accuracy-tuned threshold",
+    "foreground_threshold_uint8": 128,
+    "frame_rule": "retain every supplied frame, sorted by frame number; no interpolation of gaps",
+    "geometry": "preserve supplied 64x64 canvas; no extra resizing, cropping or alignment",
+    "gei": "whole_clip_mean_of_thresholded_masks_float64",
+    "regions": "upper rows 0:32; lower rows 32:64",
+    "eligibility": "complete required role sequences at both views, each >=20 frames; exclude person within original role; no reassignment",
+    "fit_required": "NM01-06 only",
+    "validation_required": "NM01-06 and BG01-02 only",
+    "test_required": "NM01-06, BG01-02, CL01-02",
+    "empty_after_threshold": "abort for integrity review; no silent frame removal",
+    "missing_frame_numbers": "retain existing ordered frames; log gaps, no imputation",
+    "license_status": "Unknown uploader metadata; no redistribution authorization inferred"
+  },
+  "retained_subject_counts": {
+    "fit": 49,
+    "validation": 23,
+    "test": 47
+  },
+  "development_features_prepared": true,
+  "development_feature_provenance": "data/processed/kaggle_casia_b_v1/development_gei/provenance.json",
+  "numerical_conventions": {
+    "specification": "docs/projection_specification.md",
+    "pca_whiten": false,
+    "scatter_divisor": "number_of_fitting_samples",
+    "lda_ridge": "lambda_times_trace_within_scatter_over_precursor_dimension",
+    "lda_eigenvector_scaling": "regularized_within_scatter_orthonormal",
+    "infeasible_dimensions": "reject_not_clip",
+    "normal_control_implemented": true,
+    "normal_control_selection_sequences": [
+      "nm-05",
+      "nm-06"
+    ]
+  }
+}

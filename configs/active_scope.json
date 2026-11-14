@@ -1,0 +1,15 @@
+{
+  "date": "2026-11-14",
+  "authority": "explicit_user_scope_change",
+  "study": "proposal_03_gait_region_weight_transfer",
+  "active_evidence": [
+    "results/test/v1/summary.json",
+    "results/audit/person_sensitivity_v1/sensitivity.json",
+    "results/robustness/v1/summary.json"
+  ],
+  "gaitset_full_body_comparison": "cancelled_by_user_excluded_from_manuscript_results",
+  "gaitset_materials": "historical_only_preserved_without_deletion",
+  "external_running_sessions": "not_controlled_or_verified_by_assistant",
+  "new_descriptor_experiments": "not_authorized_for_execution_in_this_revision_not_performed",
+  "original_frozen_protocol_and_results": "unchanged"
+}

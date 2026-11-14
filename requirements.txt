@@ -1,0 +1,5 @@
+# Exact versions verified in the initial host environment; not a universal wheel lock.
+numpy==2.5.2
+scipy==1.18.1
+Pillow==12.3.0
+pytest==9.1.1

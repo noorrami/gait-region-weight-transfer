@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "frozen_at_utc": "2026-11-12T12:06:22.683644+00:00",
+  "before_final_test_recognition": true,
+  "plan_sha256": "0ec8f3928156b9f0ff2345c443e3fd92c97deb748fc5d627eeeef6ada4bb655f",
+  "selection_lock_sha256": "3292f64db517d40e87e83c2b10549097d4b82b89da4ac9dabd454a1d12d4de45",
+  "bootstrap": {
+    "seed": 20261111,
+    "replicates": 10000,
+    "unit": "paired_probe_person",
+    "ci": "95_percentile_linear",
+    "fixed_gallery_and_models": true
+  },
+  "implementation_artifacts": {
+    "src/gait_transfer/evaluation.py": "2056c68b476d42346f6f9a6c5f75e197cfed6616099dd6c4cb328b90a4e2d346",
+    "scripts/prepare_test.py": "b874c19b2a726770c5a797856450100fac2456af8fcd2b3ae8adebc7b1da1adb",
+    "scripts/evaluate_test.py": "9d6d53def492a2ff59274e06a20701215ca3d2105af93014c6f527db7937c896",
+    "tests/test_evaluation.py": "a9b175a7b9f326531ab2ab902daa23a8d57a7a1885b528655df8324ca8b1e495",
+    "docs/final_evaluation_spec.md": "7a580b6a59a04c38adabc786c36c91f9977581ad2361c4804ed975a9a0d5089c"
+  }
+}

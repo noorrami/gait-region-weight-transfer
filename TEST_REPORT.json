@@ -1,0 +1,8 @@
+{
+  "synthetic_tests": "51 passed",
+  "environment": "Recorded installed dependencies; separate source directory and new interpreter",
+  "test_output": "...................................................                      [100%]\n51 passed in 4.68s\n",
+  "aggregate_check": "Ten-split aggregate arithmetic and sensitivity fraction verified.\nThis does not reconstruct recognition scores, person outcomes or raw-data results.\n",
+  "full_raw_data_reproduction": false,
+  "new_dependency_installation": false
+}

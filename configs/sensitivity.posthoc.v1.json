@@ -1,0 +1,17 @@
+{
+  "status": "post_test_sensitivity_not_preregistered",
+  "date": "2026-11-13",
+  "reason": "User-requested review questioned sparse discordance and percentile bootstrap robustness",
+  "outcomes_already_seen": true,
+  "contrast": "pca_then_regularized_lda_cl_bag_selected_minus_equal",
+  "unit": "person",
+  "statistic": "mean of the 47 within-person four-probe correctness differences",
+  "method": "exact person-level sign flip",
+  "alternative": "two-sided absolute statistic at least as extreme, including equality",
+  "zero_differences": "omit only from enumeration; retain all 47 people in mean denominator",
+  "null_assumption": "independent person-block method-label exchangeability, equivalently sign symmetry conditional on absolute differences",
+  "uncertainty_scope": "conditional on fixed fitted models, gallery and split",
+  "probe_mcnemar": "diagnostic replication of review arithmetic only; not valid primary inference because probes are clustered",
+  "new_model_fits": false,
+  "changes_to_frozen_primary_analysis": false
+}
